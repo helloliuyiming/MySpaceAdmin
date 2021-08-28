@@ -1,0 +1,31 @@
+{
+  "name": "myspaceadmin",
+  "version": "1.0.0",
+  "description": "1. webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.2.6",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "style-loader": "^3.2.1",
+    "vue-loader": "^16.5.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "element-plus": "^1.1.0-beta.7",
+    "lodash": "^4.17.21",
+    "vue": "^3.2.6",
+    "vue-router": "^4.0.11",
+    "vuex": "^4.0.2"
+  }
+}
